@@ -1,0 +1,17 @@
+{
+  "name": "comparethechatbot-functional-tests",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "scripts": {
+    "test": "_mocha --recursive --exit test/functional/"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.0.5"
+  }
+}
