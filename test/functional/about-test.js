@@ -4,7 +4,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver")
 const chai = require("chai")
 var expect = require("chai").expect
 
-describe("FAQ page tests", function() {
+describe("About page tests", function() {
   this.timeout(50000)
   let driver
 
@@ -20,12 +20,12 @@ describe("FAQ page tests", function() {
     return driver.quit()
   })
 
-  it("The page should be FAQ page", function() {
+  it("The page should be about page", function() {
     return driver
-      .get("http://localhost:7777/faq")
+      .get("http://localhost:7777/about")
       .then(_ => driver.getTitle())
       .then(title =>
-        expect(title).to.equal("FAQ | Comparethechatbot.com!")
+        expect(title).to.equal("About | Comparethechatbot.com!")
       )
   })
 })
