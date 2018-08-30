@@ -1,2 +1,2 @@
 # comparethechatbot-functional-tests
-Functional selenium tests for the comparethechatbot.com
+Functional selenium tests for https://github.com/hvekriya/comparethechatbot.com
